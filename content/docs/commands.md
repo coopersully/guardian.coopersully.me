@@ -19,7 +19,6 @@ parameters that are also required for the command to work. The parameters are su
 * ``[]`` signifies an optional parameter.
 
 ## All commands
-
 | Command | Description | Permission Required |
 | :- | :-: | -: |
 | ``embed [description]`` | Create an embed-message in the current channel | ``Manage Channel`` |
