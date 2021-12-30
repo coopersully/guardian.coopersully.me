@@ -16,8 +16,8 @@ also required for the command to work. The parameters are surrounded with one of
 * ``<>`` signifies a required parameter.
 * ``[]`` signifies an optional parameter.
 
-| - | :-: | :-: |
 | Command | Description | Permission Required |
+| :-: | :-: | :-: |
 | ``embed [description]`` | Create an embed-message in the current channel ||
 | ``help`` | Get a list of the bot's commands and what they do ||
 | ``info`` | Get to know more about the bot. ||
