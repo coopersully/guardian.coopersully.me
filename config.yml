@@ -5,24 +5,21 @@ theme: "PaperMod"
 params:
     title: Guardian
     description: "A friendly, feature-rich moderation tool for Discord servers."
-    keywords: [Blog, Portfolio, PaperMod]
+    keywords: [Guardian, Discord, Bot, Moderation]
     author: Cooper Sullivan
     DateFormat: "January 2, 2006"
-    defaultTheme: auto # dark, light
-    disableThemeToggle: false
-
-    ShowReadingTime: true
+    defaultTheme: auto
+    # disableThemeToggle: true
     ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
-    ShowCodeCopyButtons: false
-    disableSpecial1stPost: false
-    disableScrollToTop: false
+    ShowCodeCopyButtons: true
+    ShowToc: true
     comments: false
-    hidemeta: false
-    hideSummary: false
-    showtoc: false
-    tocopen: false
+    images: ["papermod-cover.png"]
 
     assets:
         # disableHLJS: true # to disable highlight.js
@@ -52,12 +49,6 @@ params:
               url: docs/
             - name: Invite
               url: https://discord.com/api/oauth2/authorize?client_id=885618073904767008&permissions=8&scope=bot
-
-    socialIcons:
-#        - name: github
-#          url: "https://github.com/coopersully/guardian"
-#        - name: discord
-#          url: "https://discord.gg/safehouse"
     
     cover:
         hidden: true # hide everywhere but not in structured data
@@ -66,19 +57,9 @@ params:
 
     editPost:
         URL: "https://github.com/coopersully/guardian.coopersully.me/tree/main/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+        Text: "Suggest Changes"
+        appendFilePath: true
 
-    # for search
-    # https://fusejs.io/api/options.html
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
         - identifier: home
