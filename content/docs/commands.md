@@ -10,14 +10,16 @@ ShowBreadCrumbs: false
 draft: false
 ---
 
-## Commands
-All of Guardian's universally-accessible commands are listed below. Some of the bot's commands have parameters that are
-also required for the command to work. The parameters are surrounded with one of two types of brackets:
+## Prefixes, parameters, and whatnot
+All of Guardian's universally-accessible commands are listed below; when performed in Discord, all commands
+must follow the server's command prefix (i.e. ``~help`` instead of ``help``). The table of commands below, however,
+does not prefix any commands as the bot's prefix may vary from server to server. Some of the bot's commands have
+parameters that are also required for the command to work. The parameters are surrounded with one of two types of brackets:
 * ``<>`` signifies a required parameter.
 * ``[]`` signifies an optional parameter.
 
 | Command | Description | Permission Required |
-| - | :-: | :-: |
+| -: | :-: | :- |
 | ``embed [description]`` | Create an embed-message in the current channel | ``Manage Channel`` |
 | ``help`` | Get a list of the bot's commands and what they do ||
 | ``info`` | Get to know more about the bot. ||
