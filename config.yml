@@ -36,7 +36,7 @@ params:
     label:
         text: "Guardian"
         icon: images/guardian-bw.png
-        iconHeight: 35
+        iconHeight: 24
 
     # profile-mode
     profileMode:
@@ -44,12 +44,12 @@ params:
         title: Guardian
         subtitle: "A friendly, feature-rich moderation tool for Discord servers."
         imageUrl: "images/guardian-zoomout.png"
-        imageWidth: 120
-        imageHeight: 120
+        imageWidth: 240
+        imageHeight: 240
         imageTitle: Guardian
         buttons:
             - name: Documentation
-              url: docs
+              url: docs/
             - name: Invite
               url: https://discord.com/api/oauth2/authorize?client_id=885618073904767008&permissions=8&scope=bot
 
