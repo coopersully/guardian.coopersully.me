@@ -22,7 +22,7 @@ The bot is currently public and free-to-use, but please remember that it's still
 You may experience some downtime (on the bot's end) and Guardian may not always behave exactly the way it should. If that's alright with you and you'd like to partake in the alpha-testing process,
 you can [invite Guardian to your own server by clicking here](https://discord.com/api/oauth2/authorize?client_id=885618073904767008&permissions=8&scope=bot).
 
-## Hosting
+## Personalization & hosting
 If you'd like a much more customizable, server-specific version of Guardian, you can request a downloadable program
 to be able to host your own bot. This is only utilized by a handful of users at the moment and is only available upon
 request. If you are hosting your own iteration of guardian, the default config.yml is as follows:
@@ -30,8 +30,6 @@ request. If you are hosting your own iteration of guardian, the default config.y
 ### config.yml
 
 ```
-YAML
-
 # What prefix should the bot use for it's commands?
 # i.e. "!play <song>" uses the prefix "!"
 bot-prefix: "!"
