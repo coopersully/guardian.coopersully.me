@@ -32,7 +32,7 @@ params:
 
     label:
         text: "Guardian"
-        icon: /favicon.svg
+        icon: favicon.svg
         iconHeight: 24
 
     # profile-mode
