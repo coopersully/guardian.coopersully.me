@@ -21,14 +21,17 @@ parameters that are also required for the command to work. The parameters are su
 ## All commands
 | Command | Description | Permission Required |
 | :- | :-: | -: |
+| ``ban <member> [reason]`` | Ban a member from the server. | ``Ban Members`` |
 | ``embed [description]`` | Create an embed-message in the current channel | ``Manage Channel`` |
 | ``help`` | Get a list of the bot's commands and what they do ||
 | ``info`` | Get to know more about the bot. ||
 | ``insult`` | Generate a random insult from the bot. ||
 | ``invite`` | Get a list of the server's partner-servers and their invite links. ||
-| ``poll <title>, <option>, <option>, [option], [option]`` | Create a poll with up to four options for users to vote on; parameters are seperated by commas. ||
+| ``kick <member> [reason]`` | Kick a member from the server. | ``Kick Members`` |
+| ``poll <title>, <option>, <option>, [option], [option], ...`` | Create a poll with up to ten (10) options for users to vote on; parameters are separated by commas. ||
 | ``prefix <character>`` | Change the prefix the bot listens to commands through. ||
 | ``purge <number>`` | Delete a specified amount of messages from the current channel | ``Manage Channel`` |
-| ``roles`` | Get a list of the server's roles, in order from highest to lowest-hoisted. ||
 | ``role <name>`` | Customize your user with one of several toggleable roles. | ``Manage Roles`` |
+| ``search <name>`` | Search the server's member list for a name. ||
 | ``storage	 <view / upload / download> <path>`` | View, download, and upload files stored in the bot's directory. | ``Administrator`` |
+| ``roles`` | Get a list of the server's roles, in order from highest to lowest-hoisted. ||
