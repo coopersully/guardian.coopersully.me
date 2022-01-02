@@ -2,7 +2,7 @@
 author: "Cooper Sullivan"
 title: "Logs"
 date: "2021-06-05"
-description: "Guardian's audit-logging features"
+description: "An overview of Guardian's audit-logging features."
 tags: []
 categories: ["documentation"]
 ShowToc: false
@@ -22,7 +22,7 @@ Guardian will automatically create its audit-logging channel as soon as it joins
 this channel is only accessible to the guild's owner and users with the ``Administrator`` permission. Guardian
 will also introduce itself with a summary of the logs, a few helpful tips, and a link to this website.
 
-![](images/log-intro.png)
+![](/static/images/log-intro.png#center)
 
 It's important to note that Guardian's log channel is created with the ``[LOGS]`` channel tag. Guardian
 often scans channel topics for tags that can change it's behavior- the logs tag is no different. This tells
