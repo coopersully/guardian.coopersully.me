@@ -1,8 +1,8 @@
 ---
 author: "Cooper Sullivan"
-title: "About the bot"
+title: "Logs"
 date: "2021-06-05"
-description: "All about Guardian's purpose, features, and design."
+description: "Guardian's audit-logging features"
 tags: []
 categories: ["documentation"]
 ShowToc: false
