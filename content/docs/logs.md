@@ -43,9 +43,9 @@ detect and take record of all events and changes listed below:
 * A user deafens themselves
 * A user undeafens themselves
 * A user is server muted
-* A user us server-unmuted
+* A user is server-unmuted
 * A user is server deafened
-* A user us server-undeafened
+* A user is server-undeafened
 * A user's nickname is updated
 * A user's roles are added to
 * A user's roles are removed from
