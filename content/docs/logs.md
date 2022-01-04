@@ -52,3 +52,4 @@ detect and take record of all events and changes listed below:
 * A user moves from one voice channel to another
 * A user begins boosting the server with Discord Nitro
 * A user stops boosting the server with Discord Nitro
+* A user's boost renews for the server with Discord Nitro
