@@ -22,9 +22,12 @@ parameters that are also required for the command to work. The parameters are su
 | Command | Description | Permission Required |
 | :- | :-: | -: |
 | ``ban <member> [reason]`` | Ban a member from the server. | ``Ban Members`` |
-| ``embed [description]`` | Create an embed-message in the current channel | ``Manage Channel`` |
+| ``embed <title>, <description>`` | Create an embed-message in the current channel | ``Manage Channel`` |
+| ``guildstats`` | Get a list of in-depth statistics about the current guild. ||
 | ``help`` | Get a list of the bot's commands and what they do ||
+| ``id`` | Get the current channel's numeric identifier. ||
 | ``info`` | Get to know more about the bot. ||
+| ``instagram`` | Search for & view an instagram profile. ||
 | ``insult`` | Generate a random insult from the bot. ||
 | ``invite`` | Get a list of the server's partner-servers and their invite links. ||
 | ``kick <member> [reason]`` | Kick a member from the server. | ``Kick Members`` |
@@ -32,6 +35,8 @@ parameters that are also required for the command to work. The parameters are su
 | ``prefix <character>`` | Change the prefix the bot listens to commands through. ||
 | ``purge <number>`` | Delete a specified amount of messages from the current channel | ``Manage Channel`` |
 | ``role <name>`` | Customize your user with one of several toggleable roles. | ``Manage Roles`` |
-| ``search <name>`` | Search the server's member list for a name. ||
-| ``storage	 <view / upload / download> <path>`` | View, download, and upload files stored in the bot's directory. | ``Administrator`` |
 | ``roles`` | Get a list of the server's roles, in order from highest to lowest-hoisted. ||
+| ``search <name>`` | Search the server's member list for a name. ||
+| ``stats`` | Get a list of neat, live statistics about Guardian. ||
+| ``storage	 <view / upload / download> <path>`` | View, download, and upload files stored in the bot's directory. | ``Administrator`` |
+| ``valorant`` | Check a player's average VALORANT statistics. ||
