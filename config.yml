@@ -48,7 +48,7 @@ params:
             - name: Documentation
               url: docs/
             - name: Invite
-              url: https://discord.com/api/oauth2/authorize?client_id=885618073904767008&permissions=8&scope=bot
+              url: https://discord.com/api/oauth2/authorize?client_id=885618073904767008&permissions=8&scope=bot%20applications.commands
     
     cover:
         hidden: true # hide everywhere but not in structured data
