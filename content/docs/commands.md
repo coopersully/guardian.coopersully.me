@@ -23,11 +23,15 @@ parameters that are also required for the command to work. The parameters are su
 | :- | :-: | -: |
 | ``apex <origin ︱ xbox ︱ playstation> <username>`` | Check a player's average Apex Legends statistics. ||
 | ``csgo`` | Check a player's average Counter-Strike: Global Offensive statistics. ||
+| ``dadjoke`` | Generate a witty dad joke. ||
+| ``eight-ball [question] `` | Ask The Magic 8-Ball a yes or no question. ||
 | ``embed <title> [description] [footer] [color] [channel]`` | Create an embed-message in the current channel | ``Manage Channel`` |
 | ``fortnite <pc ︱ console ︱ mobile> <nae ︱ naw ︱ eu> <username>`` | Check a player's average Fortnite statistics. ||
 | ``help`` | Get to know more about the bot. ||
 | ``id`` | Get the current channel's numeric identifier. ||
+| ``imgur <query>`` | Search for an image around the internet using Imgur ||
 | ``instagram`` | Search for & view an instagram profile. ||
+| ``lock`` | Stops @everyone from sending messages and/or speaking in a specified channel. | ``Manage Channel`` |
 | ``log <message>`` | Send a manual note to Guardian's audit logs. | ``View Audit Logs`` |
 | ``partners`` | Get a list of the server's partner-servers and their invite links. ||
 | ``poll <title> <option-a> <option-b> [option-c] [option-d] ...`` | Create a poll with up to ten (10) options for users to vote on; parameters are separated by commas. ||
@@ -39,4 +43,6 @@ parameters that are also required for the command to work. The parameters are su
 | ``stats-server`` | Get a list of in-depth statistics about the current guild. ||
 | ``stats`` | Get a list of neat, live statistics about Guardian. ||
 | ``storage	 <view ︱ upload ︱ download> <path>`` | View, download, and upload files stored in the bot's directory. | ``Administrator`` |
+| ``sus`` | Generate a random among us meme. ||
+| ``unlock`` | Allows @everyone to send messages and/or speak in a specified channel. | ``Manage Channel`` |
 | ``valorant <username>`` | Check a player's average VALORANT statistics. ||
