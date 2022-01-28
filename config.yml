@@ -4,8 +4,8 @@ theme: "PaperMod"
 
 params:
     title: Guardian
-    description: "A friendly, feature-rich moderation tool for Discord servers."
-    keywords: [Guardian, Discord, Bot, Moderation]
+    description: "A friendly and feature-rich bot made to serve as an all-in-one solution for Discord servers."
+    keywords: [Guardian, Discord, Bot, AI, Moderation]
     author: Cooper Sullivan
     DateFormat: "January 2, 2006"
     defaultTheme: auto
@@ -39,7 +39,7 @@ params:
     profileMode:
         enabled: true # needs to be explicitly set
         title: Guardian
-        subtitle: "A friendly, feature-rich moderation tool for Discord servers."
+        subtitle: "A friendly and feature-rich bot made to serve as an all-in-one solution for Discord servers."
         imageUrl: "images/guardian-alt.png"
         imageWidth: 240
         imageHeight: 240
