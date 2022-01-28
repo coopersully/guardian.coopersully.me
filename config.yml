@@ -24,9 +24,9 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         disableFingerprinting: true
-        favicon: "images/guardian.png"
-        favicon16x16: "images/guardian-16.png"
-        favicon32x32: "images/guardian-32.png"
+        favicon: "/favicon.svg"
+        favicon16x16: "/favicon.svg"
+        favicon32x32: "/favicon.svg"
         apple_touch_icon: "images/guardian.png"
         safari_pinned_tab: "images/guardian.png"
 
@@ -40,7 +40,7 @@ params:
         enabled: true # needs to be explicitly set
         title: Guardian
         subtitle: "A friendly, feature-rich moderation tool for Discord servers."
-        imageUrl: "images/guardian-zoomout.png"
+        imageUrl: "images/guardian-alt.png"
         imageWidth: 240
         imageHeight: 240
         imageTitle: Guardian
