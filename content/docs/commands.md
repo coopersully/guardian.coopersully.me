@@ -25,7 +25,7 @@ parameters that are also required for the command to work. The parameters are su
 | ``channel creation-date [channel]`` | Retrieve the timestamp at which a channel was created. ||
 | ``channel id [channel]`` | Retrieve a channel's public identifier. ||
 | ``channel topic [channel]`` | Retrieve the topic of a text channel. ||
-| ``csgo`` | Check a player's average Counter-Strike: Global Offensive statistics. ||
+| ``csgo <steam-id>`` | Check a player's average Counter-Strike: Global Offensive statistics. ||
 | ``dadjoke`` | Generate a witty dad joke. ||
 | ``dice <amount>`` | Roll a number of virtual dice, numbered 1-6 each. ||
 | ``eight-ball [question] `` | Ask The Magic 8-Ball a yes or no question. ||
@@ -35,7 +35,8 @@ parameters that are also required for the command to work. The parameters are su
 | ``help`` | Get to know more about the bot. ||
 | ``id`` | Get the current channel's numeric identifier. ||
 | ``imgur <query>`` | Search for an image around the internet using Imgur ||
-| ``instagram`` | Search for & view an instagram profile. ||
+| ``instagram tag <query>`` | Search for & view an instagram hashtag. ||
+| ``instagram user <query>`` | Search for & view an instagram user's profile. ||
 | ``lock`` | Stops @everyone from sending messages and/or speaking in a specified channel. | ``Manage Channel`` |
 | ``log <message>`` | Send a manual note to Guardian's audit logs. | ``View Audit Logs`` |
 | ``meme`` | Generate a random meme from Imgur. ||
