@@ -38,6 +38,7 @@ parameters that are also required for the command to work. The parameters are su
 | ``instagram`` | Search for & view an instagram profile. ||
 | ``lock`` | Stops @everyone from sending messages and/or speaking in a specified channel. | ``Manage Channel`` |
 | ``log <message>`` | Send a manual note to Guardian's audit logs. | ``View Audit Logs`` |
+| ``meme`` | Generate a random meme from Imgur. ||
 | ``partners`` | Get a list of the server's partner-servers and their invite links. ||
 | ``ping``| Replies with "Pong!" ||
 | ``poll <title> <option-a> <option-b> [option-c] [option-d] ...`` | Create a poll with up to ten (10) options for users to vote on; parameters are separated by commas. ||
@@ -50,7 +51,7 @@ parameters that are also required for the command to work. The parameters are su
 | ``stats-server`` | Get a list of in-depth statistics about the current guild. ||
 | ``stats`` | Get a list of neat, live statistics about Guardian. ||
 | ``storage	 <view ︱ upload ︱ download> <path>`` | View, download, and upload files stored in the bot's directory. | ``Administrator`` |
-| ``sus`` | Generate a random among us meme. ||
+| ``sus`` | Generate a random "Among Us" related meme from Imgur. ||
 | ``unlock`` | Allows @everyone to send messages and/or speak in a specified channel. | ``Manage Channel`` |
 | ``user avatar [user]`` | Retrieve a user's avatar from their profile. ||
 | ``user banner [user]`` | Retrieve a user's banner from their profile. ||
