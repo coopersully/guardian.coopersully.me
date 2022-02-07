@@ -14,17 +14,18 @@ draft: false
 In short, channel tags are bits of info added to the channel topic of certain text channels that change the way
 Guardian interacts with these channels. Usually channel topics look like the following:
 
-Text Channel Name: **#chat-nsfw**
-Text Channel Topic: ```This channel is unmonitored; feel free to send NSFW content here.```
+- Text Channel Name: **#chat-nsfw**
+- Text Channel Topic: ```This channel is unmonitored; feel free to send NSFW content here.```
 
 Let's say, for example, we want the **#chat-nsfw** channel to be completely unmonitored by Guardian- this means
 that Guardian won't check it with it's automatic scam-protection or profanity protection moderation. If this was
 the case, we'd add the ``[NOT-FILTERED]`` channel tag to the text channel's topic.
 
-Text Channel Name: **#chat-nsfw**
-Text Channel Topic: ```This channel is unmonitored; feel free to send NSFW content here. [NOT-FILTERED]```
+- Text Channel Name: **#chat-nsfw**
+- Text Channel Topic: ```This channel is unmonitored; feel free to send NSFW content here. [NOT-FILTERED]```
 
-Guardian will now completely ignore this channel with it's automatic moderation features.
+Guardian will now completely ignore this channel with it's automatic moderation features. This will continue so long
+as the channel's topic contains the channel tag. If the channel tag is removed, Guardian will continue monitoring it.
 
 > Note that channel tags are not case sensitive, meaning that capitilzation is not important in the usage of channel tags.
 
