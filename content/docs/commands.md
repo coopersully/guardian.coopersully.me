@@ -3,7 +3,7 @@ author: "Cooper Sullivan"
 title: "Commands"
 date: "2021-06-05"
 description: "All of Guardian's commands in one place."
-tags: []
+tags: ["features", "live"]
 categories: ["documentation"]
 ShowToc: false
 ShowBreadCrumbs: false

@@ -3,7 +3,7 @@ author: "Cooper Sullivan"
 title: "Channel Tags"
 date: "2022-02-06"
 description: "All about Guardian's channel tags."
-tags: []
+tags: ["features", "live"]
 categories: ["documentation"]
 ShowToc: false
 ShowBreadCrumbs: false

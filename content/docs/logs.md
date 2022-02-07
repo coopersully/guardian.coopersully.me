@@ -3,7 +3,7 @@ author: "Cooper Sullivan"
 title: "Logs"
 date: "2021-06-05"
 description: "An overview of Guardian's audit-logging features."
-tags: []
+tags: ["features", "live"]
 categories: ["documentation"]
 ShowToc: false
 ShowBreadCrumbs: false
