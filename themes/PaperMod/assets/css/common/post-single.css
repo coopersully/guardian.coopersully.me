@@ -193,10 +193,6 @@
     display: none;
 }
 
-.post-content .highlight span {
-    background: 0 0 !important;
-}
-
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
@@ -370,6 +366,7 @@ h6:hover .anchor {
     color: var(--secondary);
     margin-inline-start: 8px;
     font-weight: 500;
+    user-select: none;
 }
 
 .post-content :not(table) ::-webkit-scrollbar-thumb {
