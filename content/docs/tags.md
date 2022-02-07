@@ -1,6 +1,6 @@
 ---
 author: "Cooper Sullivan"
-title: "Commands"
+title: "Channel Tags"
 date: "2022-02-06"
 description: "All about Guardian's channel tags."
 tags: []
