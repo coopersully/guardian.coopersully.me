@@ -13,10 +13,14 @@ draft: false
 ![](https://i.imgur.com/90moceq.png#center)
 
 ## Prefixes, parameters, and what-not
-All of Guardian's universally-accessible commands are listed below; when performed in Discord, all commands
-must follow the server's command prefix (i.e. ``~help`` instead of ``help``). The table of commands below, however,
-does not prefix any commands as the bot's prefix may vary from server to server. Some of the bot's commands have
-parameters that are also required for the command to work. The parameters are surrounded with one of two types of brackets:
+All of Guardian's universally-accessible commands are listed below. Every command implemented under Guardian
+takes advantage of [Discord's native "Slash Commands"](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands-FAQ#:~:text=Slash%20Commands%20are%20the%20new,command%20right%20the%20first%20time.).
+This allows us to create much more advanced commands while simplifying the user experience. However, this also means that the prefix of every command is ``/``, and this prefix
+is completely unmodifiable. In addition, users attempting to execute any command via Guardian require the ``Slash Commands`` permission in the corresponding guild. An example of these "Slash Commands" can be found below.
+
+![](https://i.imgur.com/7xcGsAI.png#center)
+
+Some of the bot's commands have parameters that are also required for the command to work. The parameters are surrounded with one of two types of brackets:
 * ``<>`` signifies a required parameter.
 * ``[]`` signifies an optional parameter.
 
