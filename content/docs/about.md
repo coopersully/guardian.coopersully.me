@@ -17,7 +17,7 @@ The starting goal of Guardian was simple: to create a bot that serves as an all-
 I, in the beginning, attempted to create a Discord bot that offered a free alternative to the premium bot-army that many production-level servers require to achieve the amount of features they'd like.
 Guardian has of-course evolved and changed over time, but it's goal still remains the same. The project is still in it's experimental phase, but the results look promising. :)
 
-![](https://i.imgur.com/FmdiS5t.png#center)
+![](https://i.imgur.com/WRRruYb.png#center)
 
 ## Using Guardian
 The bot is currently public and free-to-use, but please remember that it's still in early alpha.
