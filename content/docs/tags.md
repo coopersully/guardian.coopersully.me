@@ -10,6 +10,8 @@ ShowBreadCrumbs: false
 draft: false
 ---
 
+![](https://i.imgur.com/fqTptsr.png#center)
+
 ## "I have no idea what that is."
 In short, channel tags are bits of info added to the channel topic of certain text channels that change the way
 Guardian interacts with these channels. Usually channel topics look like the following:

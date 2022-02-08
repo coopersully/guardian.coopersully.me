@@ -10,6 +10,8 @@ ShowBreadCrumbs: false
 draft: false
 ---
 
+![](https://i.imgur.com/90moceq.png#center)
+
 ## Prefixes, parameters, and what-not
 All of Guardian's universally-accessible commands are listed below; when performed in Discord, all commands
 must follow the server's command prefix (i.e. ``~help`` instead of ``help``). The table of commands below, however,

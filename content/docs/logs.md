@@ -1,6 +1,6 @@
 ---
 author: "Cooper Sullivan"
-title: "Logs"
+title: "Audit Logs"
 date: "2021-06-05"
 description: "An overview of Guardian's audit-logging features."
 tags: ["features", "live"]
@@ -9,6 +9,8 @@ ShowToc: false
 ShowBreadCrumbs: false
 draft: false
 ---
+
+![](https://i.imgur.com/qXwy1yk.png#center)
 
 ## Guardian vs. Discord Audit Logs
 While Discord's native Audit Logs are a great way to keep a record of different happenings in your server,

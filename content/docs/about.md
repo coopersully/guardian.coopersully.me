@@ -10,6 +10,8 @@ ShowBreadCrumbs: false
 draft: false
 ---
 
+![](https://i.imgur.com/IU2KHIm.png#center)
+
 ## An Introduction
 The starting goal of Guardian was simple: to create a bot that serves as an all-in-one solution.
 I, in the beginning, attempted to create a Discord bot that offered a free alternative to the premium bot-army that many production-level servers require to achieve the amount of features they'd like.
