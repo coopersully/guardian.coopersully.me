@@ -18,7 +18,7 @@ takes advantage of [Discord's native "Slash Commands"](https://support.discord.c
 This allows us to create much more advanced commands while simplifying the user experience. However, this also means that the prefix of every command is ``/``, and this prefix
 is completely unmodifiable. In addition, users attempting to execute any command via Guardian require the ``Slash Commands`` permission in the corresponding guild. An example of these "Slash Commands" can be found below.
 
-![](https://i.imgur.com/7xcGsAI.png#center)
+![](https://i.imgur.com/yOEYpJW.png#center)
 
 Some of the bot's commands have parameters that are also required for the command to work. The parameters are surrounded with one of two types of brackets:
 * ``<>`` signifies a required parameter.
