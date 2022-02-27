@@ -37,6 +37,7 @@ is later marked as a temporary channel with ``[TEMPORARY]``, only new messages s
 ## All channel tags
 | Tag | Description | Maximum |
 | :- | :-: | -: |
+| ``[COUNTING]`` | Count upwards to infinity! Guardian will automatically delete messages that are not the next number in ascending order. | 1 channel / guild |
 | ``[LOGS]`` | Guaridan's audit-logging channel; all of Guardian's automatic logs and alerts will be sent here. | 1 channel / guild |
 | ``[NOT-FILTERED]`` | This channel will be removed from Guardian's automatic moderation (profanity and scam removal). ||
 | ``[TEMPORARY-10m]`` | All messages in the channel will be deleted after ten (10) minutes. ||
