@@ -39,6 +39,8 @@
 </script>
 {{- end }}
 
+{{- if (.Param "hideHeader") }}
+{{- else }}
 <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -119,3 +121,4 @@
         </ul>
     </nav>
 </header>
+{{- end }}
